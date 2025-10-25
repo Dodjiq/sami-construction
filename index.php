@@ -128,7 +128,7 @@ require_once 'header.php';
                     <div class="col-lg-4 align-self-end">
                         <div class="about-us-image text-lg-end text-center">
                             <img
-                                src="images/construction-engineer-2021-08-26-19-52-19-utc1-e1658918545420.png"
+                                src="images/ouvrier.png"
                                 alt="about-us image"
                                 class="w-lg-100 w-40" />
                         </div>
@@ -261,7 +261,7 @@ require_once 'header.php';
                     <div class="col-lg-4">
                         <div class="project-top-image">
                             <img
-                                src="images/pic1-1.png"
+                                src="images/ch (1).jpg"
                                 alt="project image"
                                 class="w-lg-100 w-75" />
                         </div>
@@ -357,7 +357,7 @@ require_once 'header.php';
                 class="testimonial-slider text-center w-md-75 w-80 m-auto text-white">
                 <div class="slide">
                     <img
-                        src="images/attractive-business-woman-24AG6Y4-copy.jpg"
+                        src="images/dg.jpg"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -373,7 +373,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/portrait-of-businessman-2021-04-20-22-09-30-utc-copy.jpg"
+                        src="images/fon.jpg"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -387,7 +387,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/stylish-man-4N6J76M.jpg"
+                        src="images/fe.jpg"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -465,7 +465,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/construction-engineer-2021-08-26-19-52-19-utc1.jpg"
+                                src="images/rt.jpg"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -504,7 +504,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/young-serious-engineer-in-respirator-hardhat-and-2022-03-09-22-17-43-utc.jpg"
+                                src="images/cc.jpg"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -543,7 +543,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/mature-man-construction-worker-at-the-construction-2021-08-27-18-04-56-utc.jpg"
+                                src="images/ww.jpg"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div

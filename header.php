@@ -21,6 +21,36 @@
     <link rel="stylesheet" href="css/styles.css" />
     <!--FontAwesome CSS-->
     <link rel="stylesheet" href="icons/font-awesome.min.css" />
+    <style>
+        /* Sticky header styles */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1002;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.96);
+        }
+
+        body {
+            padding-top: 170px;
+            /* Make space for header; adjust as needed */
+        }
+
+        @media (max-width: 991px) {
+            body {
+                padding-top: 120px;
+            }
+        }
+
+        /* Optionally, make upper-header bg not transparent if needed */
+        .upper-header,
+        .lower-header {
+            background-clip: padding-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -89,83 +119,20 @@
                                             class="nav-link px-4 <?php echo basename($_SERVER['PHP_SELF']) === 'about.php' ? 'active' : ''; ?> text-uppercase antonio"
                                             href="about.php">À propos</a>
                                     </li>
-                                    <li class="nav-item dropdown h6 d-xl-flex m-0">
+                                    <li class="nav-item h6 d-xl-flex m-0">
                                         <a
-                                            class="nav-link dropdown-toggle px-4 my-2 text-uppercase antonio"
-                                            href="#"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Services
-                                        </a>
-                                        <ul class="dropdown-menu p-0 rounded-0">
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="service-list.php">Nos services</a>
-                                            </li>
-                                        </ul>
+                                            class="nav-link px-4 <?php echo basename($_SERVER['PHP_SELF']) === 'service-list.php' ? 'active' : ''; ?> text-uppercase antonio"
+                                            href="service-list.php">Nos services</a>
                                     </li>
-                                    <li class="nav-item dropdown h6 d-xl-flex m-0">
+                                    <li class="nav-item h6 d-xl-flex m-0">
                                         <a
-                                            class="nav-link dropdown-toggle px-4 my-2 white text-uppercase antonio"
-                                            href="#"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Projets
-                                        </a>
-                                        <ul class="dropdown-menu p-0 rounded-0">
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="project-list.php">Nos réalisations</a>
-                                            </li>
-                                        </ul>
+                                            class="nav-link px-4 white <?php echo basename($_SERVER['PHP_SELF']) === 'project-list.php' ? 'active' : ''; ?> text-uppercase antonio"
+                                            href="project-list.php">Nos réalisations</a>
                                     </li>
-                                    <li class="nav-item dropdown h6 d-xl-flex m-0">
+                                    <li class="nav-item h6 d-xl-flex m-0">
                                         <a
-                                            class="nav-link dropdown-toggle px-4 my-2 text-uppercase antonio"
-                                            href="#"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Pages
-                                        </a>
-                                        <ul class="dropdown-menu rounded-0 p-0">
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="team.php">Notre équipe</a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="testimonial.php">Témoignages</a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="faq.php">FAQ</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown h6 d-xl-flex m-0">
-                                        <a
-                                            class="nav-link dropdown-toggle px-4 my-2 antonio text-uppercase"
-                                            href="#"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            Blog
-                                        </a>
-                                        <ul class="dropdown-menu rounded-0 p-0">
-                                            <li>
-                                                <a
-                                                    class="dropdown-item py-2 px-7 text-uppercase border-0 antonio grey"
-                                                    href="blog-list.php">Nouveautés</a>
-                                            </li>
-                                        </ul>
+                                            class="nav-link px-4 <?php echo basename($_SERVER['PHP_SELF']) === 'team.php' ? 'active' : ''; ?> text-uppercase antonio"
+                                            href="team.php">Notre équipe</a>
                                     </li>
                                     <li class="nav-item h6 no-after m-0">
                                         <a
