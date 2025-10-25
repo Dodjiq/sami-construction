@@ -1,0 +1,973 @@
+/*------------------------------------------------------------------
+* Project:        Buildland - Construction Business HTML Templates
+* Author:         HtmlDesignTemplates
+* URL:            https://themeforest.net/user/htmldesigntemplates
+* Created:        02/18/2025
+-------------------------------------------------------------------*/
+
+/* 
+Table Of Content
+1.Header CSS
+2.Banner CSS
+3.About Us CSS
+4.Services CSS
+5.Project CSS
+6.Testimonial CSS
+7.Ad- Banner CSS
+8.Team CSS
+9.Partner CSS
+10.Video Banner CSS 
+11.News CSS
+12.Gap CSS
+13.Contact CSS
+14.Newsletter CSS
+15.Foorer CSS
+16.About Us page CSS 
+17.Service & Service Detail page CSS 
+18.Team & Team Detail page CSS 
+19.Career & Career Detail page CSS  
+20.Testimonial page CSS
+21.FAQ page CSS
+22.Comming-Soon page CSS
+23.Blog page CSS 
+24.Shop page CSS
+25.Cart page CSS
+26.Contact Us page CSS
+*/
+
+/*1. Header CSS */
+/* Header Top Section */
+header .contact-info-icon i {
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+}
+
+/*Header Bottom Section */
+.socials i {
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+}
+
+.socials a:hover {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.navbar-nav .nav-link {
+  padding: 13px 20px;
+}
+
+.navbar-nav .nav-item::after {
+  align-self: center;
+  border: 1px solid #555555;
+  content: " ";
+  height: 15px;
+}
+
+.navbar-nav .nav-item.no-after::after {
+  display: none;
+}
+
+.dropdown-menu > li > a {
+  font-size: 18px;
+}
+
+.dropdown-toggle::after {
+  vertical-align: 0.4em;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.show {
+  color: #92c94a;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #92c94a;
+  color: #ffffff;
+}
+
+.fixed-top {
+  background-color: #fff;
+}
+
+@media (min-width: 1180px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 68px;
+  }
+  .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+
+  ul.dropdown-menu {
+    max-height: 600px !important;
+    overflow-y: auto !important;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #92c94a;
+  }
+
+  .dropdown-item.active {
+    background-color: #92c94a;
+  }
+}
+
+@media (max-width: 1180px) {
+  div#slicknav-mobile {
+    display: block;
+  }
+
+  #responsive-menu {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
+
+  .nav-link {
+    padding: 10px 30px !important;
+    margin: 0 !important;
+  }
+
+  .slicknav_btn {
+    position: absolute;
+    left: 20px;
+  }
+
+  .slicknav_btn.slicknav_open:before,
+  .slicknav_btn.slicknav_collapsed:before {
+    left: 0;
+    top: 20px;
+    background-color: #92c94a;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+  }
+
+  .slicknav_nav {
+    top: 70px;
+    left: 0;
+    background-color: #fff;
+    position: absolute;
+    height: 340px;
+    overflow: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .slicknav_nav a:hover,
+  li.nav-item.dropdown.slicknav_parent.slicknav_open > a > a {
+    background-color: #92c94a !important;
+    color: #fff;
+  }
+
+  .slicknav_nav a,
+  .dropdown-menu > li > a {
+    font-size: 16px;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .slicknav_nav .active,
+  .fa-angle-up:before {
+    background-color: #92c94a;
+    color: #fff;
+  }
+}
+
+/*Banner CSS */
+.banner-image img {
+  height: 680px;
+}
+
+.banner::after {
+  background-image: url(../images/shape10.png);
+}
+
+.banner .slick-prev,
+.banner .slick-next {
+  position: absolute;
+  top: 40%;
+  color: hsla(0, 0%, 93%, 0.9);
+  font-size: 40px;
+  border: 1px solid #fff;
+  padding: 10px;
+  transition: all 0.3s ease;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.banner .slick-prev {
+  left: 15px;
+}
+
+.banner .slick-next {
+  right: 15px;
+}
+
+.banner .slick-next::after,
+.banner .slick-prev::before {
+  content: "\f054" !important;
+  font-family: "FontAwesome" !important;
+  visibility: visible;
+}
+
+.banner .slick-prev::before {
+  content: "\f053" !important;
+}
+
+@media (max-width: 1180px) {
+  .banner,
+  .breadcrumb {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner .slick-prev {
+    left: 0;
+  }
+
+  .banner .slick-next {
+    right: 0;
+  }
+}
+
+.banner-content {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.slick-active .banner-content {
+  opacity: 1 !important;
+  transition-delay: 0.5s; /* Delay after slide becomes active */
+}
+
+/* About Us CSS */
+@media (min-width: 992px) {
+  .about-us-image {
+    margin-top: -130px;
+  }
+}
+
+.about-us-counter .counter-num {
+  font-size: 69px;
+}
+
+.about-us::after {
+  background-image: url(../images/shape10.jpg);
+  z-index: 0;
+  height: 120px;
+}
+
+/* Services CSS */
+.service .overlay {
+  background-color: #e9e9e966;
+  background-image: url(../images/body.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.service::after {
+  background-image: url(../images/shape92.PNG);
+  z-index: 0;
+}
+
+/* Project CSS */
+@media (min-width: 992px) {
+  .project-top-image {
+    margin-top: -100px;
+  }
+}
+
+.project-box1,
+.project-box {
+  background-image: url(../images/maison-moderne.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 50px;
+}
+
+.project-box2 {
+  background-image: url(../images/maison-traditionnel.jpg);
+}
+
+.project-box3 {
+  background-image: url(../images/renovation.jpg);
+}
+
+.project-box4 {
+  background-image: url(../images/projet-personnaliser.jpg);
+}
+
+.project-box5 {
+  background-image: url(../images/nous-contacter.jpg);
+}
+
+.project-bottom .overlay {
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.project-box:hover .overlay {
+  filter: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-bottom {
+  margin-top: -120px;
+}
+
+/* Testimonial CSS */
+.testimonial {
+  background-image: url(../images/testimonial.png);
+}
+
+.testimonial-slider img,
+.testimonial-slider1 img {
+  height: 100px;
+  width: 100px;
+}
+
+.slick-dots li {
+  position: relative;
+  visibility: hidden;
+  left: 45%;
+  top: 40px;
+}
+
+.slick-dots li button::after {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background: #e1980f;
+  border-radius: 50%;
+  visibility: visible;
+}
+
+.slick-dots li.slick-active button::after {
+  background-color: #fff;
+}
+
+.slick-dots {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .slick-dots li {
+    left: 43%;
+  }
+}
+
+@media (max-width: 576px) {
+  .slick-dots li {
+    left: 35%;
+  }
+}
+
+/* Ad- Banner CSS */
+.add-banner-button {
+  background-image: url(../images/nous-contacter.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ad-title,
+.add-banner-button {
+  margin-top: -120px;
+}
+
+@media (max-width: 576px) {
+  .add-banner-button {
+    margin-top: 0px;
+  }
+}
+
+/* Team CSS */
+
+.team-member-image::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all ease-in-out 0.4s;
+  content: "";
+  opacity: 0;
+  transform: translateY(100%);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.team-member-image:hover::after {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all ease-in-out 0.4s;
+}
+
+.team-member-info {
+  transform: translate(-50%, -30%);
+  transition: transform 0.3s ease-out;
+  opacity: 0;
+}
+
+.team-member-image:hover .team-member-info {
+  transition: transform 0.3s ease-out;
+  transform: translate(-50%, -50%) !important;
+  opacity: 1;
+}
+
+.team .social-link li a {
+  width: 30px;
+  height: 30px;
+  background-color: #a1a1a1;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes iconTranslateY {
+  48% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+  }
+
+  49% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.social-link > li > a:hover > i {
+  -webkit-animation: iconTranslateY 0.4s forwards;
+  animation: iconTranslateY 0.4s forwards;
+}
+
+.team-member-info .social-link li a:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.team-member-info .social-link li:last-child a:hover {
+  background: #e60023;
+}
+
+.team-member-info .social-link li:first-child a:hover {
+  background: #1877f2;
+}
+
+/* Partner CSS */
+.partner {
+  margin-bottom: -100px;
+}
+
+/* Video Banner CSS */
+.video-banner {
+  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.video-banner::before {
+  background-image: url(../images/shape11\ white.PNG);
+  z-index: 1;
+}
+
+.video-banner::after {
+  background-image: url(../images/shape10.jpg);
+  z-index: 1;
+}
+
+.video-banner-left a {
+  height: 600px;
+  background-image: url(../images/interior-construction-team-meeting-brainstorming-c-2021-08-26-23-57-39-utc-1.jpg);
+  background-position: center;
+  border-width: 8px !important;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-banner-left {
+  margin-bottom: -80px;
+}
+/* News CSS */
+
+.news .overlay {
+  background-color: #e9e9e966;
+}
+
+.news-image::after,
+.blog-list .blog-image img::after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent 75%);
+  background-repeat: no-repeat;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  transition: all 0.3s ease-out;
+  width: 100%;
+}
+
+.news-image:hover img {
+  filter: grayscale(90%);
+  transition: all 0.3s ease-out;
+}
+
+.news-image:hover .news-image::after {
+  background-image: none;
+}
+
+.news {
+  background-image: url(../images/testi-bg\ copy.PNG);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* Gap CSS */
+.gap::before {
+  background-image: url(../images/shape11.jpg);
+  z-index: 1;
+}
+
+.gap {
+  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc3.jpg);
+  padding-bottom: 150px !important;
+  background-attachment: fixed;
+}
+
+/* Contact CSS */
+.contact-inner {
+  margin-top: -100px;
+}
+
+/* Newsletter CSS */
+.newsletter-inner {
+  margin-bottom: -100px;
+}
+
+/* Footer CSS */
+.footer-inner .socials i:hover {
+  background-color: #92c94a;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .overlay {
+  background-image: url(../images/building2.jpg);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  opacity: 0.05;
+}
+
+/* ========================================= */
+/*             About Us page CSS             */
+/* ========================================= */
+
+.about-detail-right .image-1 {
+  margin: -100px 50px 0px -40px;
+  border: solid 10px #fff;
+}
+
+@media (max-width: 992px) {
+  .about-detail-right .image-1 {
+    margin: 20px 0;
+    border: none;
+  }
+}
+
+.about-detail::after {
+  background-image: url(../images/shape10.jpg);
+}
+
+.about-us-page .service::after,
+.service-page .service::after {
+  background-image: none;
+}
+
+.about-us-page .video-banner::after {
+  background-image: url(../images/shape10.png);
+}
+
+.about-us-page .video-banner::before {
+  background-image: url(../images/shape11.jpg);
+}
+
+.about-us-page .about-us-counter {
+  margin-bottom: -200px;
+}
+
+.about-us-page .testimonial::after {
+  background-image: url(../images/shape10.png);
+}
+
+/* ========================================= */
+/*     Service & Service Detail page CSS     */
+/* ========================================= */
+
+.service-page .gap::before,
+.team-page .gap::before,
+.career-list-page .gap::before,
+.pricing-page .gap::before {
+  background-image: url(../images/shape11\ white.PNG);
+}
+
+.service-detail-page .service-detail,
+.project-detail-page .project-detail,
+.team-detail-page .team-detail {
+  background-image: url(../images/body.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+/* ========================================= */
+/*       Team & Team Detail page CSS         */
+/* ========================================= */
+
+.percentage-wrapper {
+  top: -40px;
+  right: -23px;
+  font-size: 16px;
+}
+
+.progress-bar {
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode: both;
+  -moz-animation: progressBar 3s ease-in-out;
+  -moz-animation-fill-mode: both;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: width;
+  }
+}
+
+/* ========================================= */
+/*      Career & Career Detail page CSS      */
+/* ========================================= */
+
+.vacancy-requirements li:not(:last-child):after {
+  content: " ";
+  color: #cccccc;
+  border-bottom: 0;
+  border-left-width: 1px;
+  border-right: 0;
+  border-top: 0;
+  border-style: solid;
+  height: 100%;
+  left: auto;
+  position: relative;
+  right: auto;
+  right: -10px;
+  width: auto;
+}
+
+.career-detail-tabs .nav-tabs .nav-link {
+  border: none;
+}
+
+.career-detail-tabs .nav-tabs .nav-link:hover {
+  color: #11394f;
+  border: none;
+}
+
+.career-detail-tabs .nav-tabs .nav-link.active {
+  color: #92c94a;
+  border-radius: 0;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+}
+
+.cv-icon i {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+}
+
+.cv-box {
+  background-image: url(../images/young-busy-worker-of-factory-scrolling-in-tablet-i-2022-03-09-22-19-59-utc.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ========================================= */
+/*              Testimonial CSS              */
+/* ========================================= */
+
+.testimonial-1::before {
+  background-image: url(../images/shape11\ white.PNG);
+}
+
+.testimonial-1::after {
+  background-image: url(../images/shape10.png);
+}
+
+.client-info img {
+  height: 60px;
+  width: 60px;
+}
+
+.testimonial-page .slick-dots li.slick-active button::after {
+  background-color: #808080;
+}
+
+/* ========================================= */
+/*                  FAQ CSS                  */
+/* ========================================= */
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  color: #92c94a;
+}
+
+.faq .accordion-button::after {
+  content: "\f067" !important;
+  font-family: "FontAwesome" !important;
+  background-image: none;
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+  content: "\f068" !important;
+}
+
+.error {
+  background-image: url(../images/body.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ========================================= */
+/*            Comming-Soon page CSS          */
+/* ========================================= */
+.coming-soon .overlay {
+  background-color: transparent;
+  background-image: url(../images/testimonial.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.coming-soon-page .socials i {
+  height: 36px;
+  width: 36px;
+  font-size: 18px;
+}
+
+.coming-soon-page .divider-pattern {
+  background: repeating-linear-gradient(
+    -55deg,
+    #ffffff3d,
+    #ffffff3d 1px,
+    transparent 1px,
+    transparent 6px
+  );
+}
+
+.countdown span {
+  font-size: 80px;
+}
+
+@media (max-width: 992px) {
+  .coming-soon span {
+    font-size: 54px;
+  }
+  .coming-soon p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 996px) {
+  .coming-soon {
+    height: 170vh !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .coming-soon span {
+    font-size: 42px;
+  }
+}
+
+/* ========================================= */
+/*                Blog CSS                   */
+/* ========================================= */
+
+.blog-single-page .author-image img {
+  height: 100px;
+  width: 100px;
+}
+
+/* ========================================= */
+/*                Shop CSS                   */
+/* ========================================= */
+.page-number:hover {
+  background-color: #e1980f;
+  color: #fff;
+}
+
+.product-img-nav img:hover,
+.slick-current img {
+  opacity: 1 !important;
+}
+
+.product-img-nav img {
+  width: 115px;
+  height: 115px;
+}
+
+.shop-inner .nav-tabs .nav-link.active {
+  background-color: #fff !important;
+}
+
+.shop-inner .nav-tabs .nav-link:hover {
+  color: #515151;
+}
+
+.order-service {
+  background-image: url(../images/young-serious-engineer-in-respirator-hardhat-and-2022-03-09-22-17-43-utc.jpg);
+}
+
+.photo-gallery img:hover {
+  filter: brightness(60%) contrast(100%) saturate(50%) blur(0px)
+    hue-rotate(0deg);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Product Review Section CSS */
+
+.star-rating-inner {
+  transform: rotateY(180deg);
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  width: 2%;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.star-rating label .star-stroke {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background: #294145;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.star-rating label .star-stroke .star-fill {
+  width: 70%;
+  aspect-ratio: 1;
+  background: transparent;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.star-rating input:hover ~ label .star-stroke,
+.star-rating input:checked ~ label .star-stroke {
+  background: #92c94a;
+  transition: all 0.2s ease-in-out;
+}
+
+.star-rating input:checked ~ label .star-stroke .star-fill {
+  background: #92c94a;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ========================================= */
+/*                Cart CSS                   */
+/* ========================================= */
+.cart img {
+  height: 55px;
+  width: 55px;
+}
+
+.cart .qty {
+  width: 3.631em;
+}
+
+.cart tr th {
+  color: #11394f;
+}
+
+.cart-total tr th {
+  color: #555555;
+}
+
+/* ========================================= */
+/*             Contact Us CSS                */
+/* ========================================= */
+
+.location-map iframe {
+  filter: brightness(60%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.location-map iframe:hover {
+  filter: none;
+  transition: all 0.3s ease-in-out;
+}
