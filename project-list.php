@@ -133,33 +133,5 @@ require_once 'header.php';
 </section>
 <!-- Ad Banner Section Ends -->
 
-<!-- Newsletter Section Starts -->
-<section class="newsletter position-relative z-1 pt-10">
-    <div class="container position-relative z-2">
-        <div class="newsletter-inner p-6 bg-orange">
-            <div class="row align-items-center g-xl-5">
-                <div class="col-xl-6">
-                    <div class="newsletter-title text-center text-lg-start">
-                        <h3 class="text-white">
-                            Abonnez-vous pour ne rien manquer de nos services et projets. </h3>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="newsletter-email">
-                        <input
-                            type="email"
-                            placeholder="Votre adresse e-mail"
-                            class="w-md-75 w-100 bg-white my-4" />
-                        <a class="btn btn1 w-md-25 w-100">
-                            <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
-                            <span class="small">S’abonner</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter Section Ends -->
 
 <?php require_once 'footer.php'; ?>

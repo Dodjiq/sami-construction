@@ -73,7 +73,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Contrat CCMI</a>
+                                    <a class="blue">Contrat CCMI</a>
                                 </h4>
                                 <p>
                                     Le Contrat de Construction de Maison Individuelle (CCMI) protège l’acquéreur avant le début des travaux.
@@ -90,7 +90,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Réglementation RE2020</a>
+                                    <a class="blue">Réglementation RE2020</a>
                                 </h4>
                                 <p>
                                     Nos constructions respectent les exigences de la <strong>Réglementation Environnementale 2020</strong>,
@@ -107,7 +107,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Test d’étanchéité à l’air</a>
+                                    <a class="blue">Test d’étanchéité à l’air</a>
                                 </h4>
                                 <p>
                                     L’étanchéité à l’air de chaque maison est contrôlée avec soin, pour garantir un confort optimal, une performance énergétique maximale et une qualité de construction irréprochable. </p>
@@ -122,7 +122,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie de livraison</a>
+                                    <a class="blue">Garantie de livraison</a>
                                 </h4>
                                 <p>
                                     Nous assurons la livraison de votre maison au prix convenu et dans les délais prévus, afin de protéger votre investissement contre tout risque d’inachèvement des travaux. </p>
@@ -137,7 +137,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie Biennale</a>
+                                    <a class="blue">Garantie Biennale</a>
                                 </h4>
                                 <p>
                                     Tous les équipements de votre logement, tels que volets, robinetterie ou chauffage, sont couverts pendant deux ans, pour garantir votre tranquillité dès la réception.
@@ -152,7 +152,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie Décennale & Dommages-Ouvrage</a>
+                                    <a class="blue">Garantie Décennale & Dommages-Ouvrage</a>
                                 </h4>
                                 <p>
                                     La garantie décennale protège votre maison contre les dommages graves pendant dix ans, tandis que la garantie dommages-ouvrage assure la réparation rapide de tout sinistre. </p>
@@ -516,34 +516,6 @@ require_once 'header.php';
 </section>
 <!-- Ad Banner Section Ends -->
 
-<!-- Newsletter Section Starts -->
-<section class="newsletter position-relative z-1 pt-10">
-    <div class="container position-relative z-2">
-        <div class="newsletter-inner p-6 bg-orange">
-            <div class="row align-items-center g-xl-5">
-                <div class="col-xl-6">
-                    <div class="newsletter-title text-center text-lg-start">
-                        <h3 class="text-white">
-                            Abonnez-vous pour ne rien manquer de nos services et projets. </h3>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="newsletter-email">
-                        <input
-                            type="email"
-                            placeholder="Votre adresse e-mail"
-                            class="w-md-75 w-100 bg-white my-4" />
-                        <a class="btn btn1 w-md-25 w-100">
-                            <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
-                            <span class="small">S’abonner</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter Section Ends -->
 
 
 <?php require_once 'footer.php'; ?>

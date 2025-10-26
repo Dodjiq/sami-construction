@@ -23,24 +23,131 @@ require_once 'header.php';
       </div>
       <div class="contact-bottom">
         <div class="row gx-lg-5 gy-5 align-items-stretch justify-content-center">
-          
+
+          <!-- Formulaire de contact -->
           <!-- Formulaire de contact -->
           <div class="col-lg-6">
             <div class="contact-form text-center text-md-start">
-              <form>
+              <!-- Zone de notification toast (en haut à droite) -->
+              <div id="toast" class="toast-notification"></div>
+
+              <!-- Message d’erreur ou de succès -->
+              <div id="form-message" class="mb-4" style="display:none;"></div>
+
+              <form id="contact-form">
                 <h5 class="orange">Obtenez un devis</h5>
                 <h2 class="mb-7">Demandez votre devis gratuit</h2>
-                <input type="text" placeholder="Nom complet" class="mb-3">
-                <input type="email" placeholder="Adresse e-mail" class="mb-3">
-                <input type="tel" placeholder="Numéro de téléphone" class="mb-3">
-                <textarea class="mb-3" rows="5" placeholder="Votre message"></textarea>
-                <button class="btn">
-                  <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow"> 
-                  Envoyer le message
+                <input type="text" name="nom" placeholder="Nom complet" class="mb-3" required>
+                <input type="email" name="email" placeholder="Adresse e-mail" class="mb-3" required>
+                <input type="tel" name="telephone" placeholder="Numéro de téléphone" class="mb-3">
+                <textarea name="message" rows="5" placeholder="Votre message" class="mb-3" required></textarea>
+
+                <button type="submit" class="btn" id="submit-btn">
+                  <span id="btn-text">Envoyer le message</span>
+                  <span id="spinner" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
+                  <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow ms-2">
                 </button>
               </form>
             </div>
           </div>
+
+          <script>
+            document.getElementById('contact-form').addEventListener('submit', async function(e) {
+              e.preventDefault();
+
+              const form = e.target;
+              const formData = new FormData(form);
+              const messageDiv = document.getElementById('form-message');
+              const submitBtn = document.getElementById('submit-btn');
+              const btnText = document.getElementById('btn-text');
+              const spinner = document.getElementById('spinner');
+              const toast = document.getElementById('toast');
+
+              // Réinitialiser état précédent
+              messageDiv.style.display = 'none';
+              toast.className = 'toast-notification';
+
+              // Activer spinner
+              btnText.textContent = 'Envoi en cours...';
+              spinner.style.display = 'inline-block';
+              submitBtn.disabled = true;
+
+              try {
+                const response = await fetch('mail.php', {
+                  method: 'POST',
+                  body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                  // Toast succès
+                  toast.textContent = `Message envoyé ! Réponse attendue à : ${result.email}`;
+                  toast.classList.add('toast-success', 'show');
+
+                  // Masquer après 3s
+                  setTimeout(() => {
+                    toast.classList.remove('show');
+                  }, 3000);
+
+                  form.reset();
+                } else {
+                  // Toast erreur
+                  toast.textContent = result.error;
+                  toast.classList.add('toast-error', 'show');
+
+                  setTimeout(() => {
+                    toast.classList.remove('show');
+                  }, 4000);
+                }
+              } catch (err) {
+                toast.textContent = 'Erreur réseau. Veuillez réessayer.';
+                toast.classList.add('toast-error', 'show');
+                setTimeout(() => toast.classList.remove('show'), 4000);
+              } finally {
+                btnText.textContent = 'Envoyer le message';
+                spinner.style.display = 'none';
+                submitBtn.disabled = false;
+              }
+            });
+          </script>
+
+          <!-- CSS minimal pour le spinner (si Bootstrap ne le charge pas déjà) -->
+          <style>
+            .spinner-border {
+              width: 1rem;
+              height: 1rem;
+            }
+
+            .toast-notification {
+              position: fixed;
+              top: 1rem;
+              right: 1rem;
+              padding: 1rem 1.5rem;
+              border-radius: 0.5rem;
+              color: white;
+              font-weight: 500;
+              z-index: 9999;
+              opacity: 0;
+              transform: translateY(-20px);
+              transition: opacity 0.3s ease, transform 0.3s ease;
+              max-width: 300px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            }
+
+            .toast-notification.show {
+              opacity: 1;
+              transform: translateY(0);
+            }
+
+            .toast-success {
+              background-color: #28a745;
+            }
+
+            .toast-error {
+              background-color: #dc3545;
+            }
+          </style>
 
           <!-- Informations de contact -->
           <div class="col-lg-6">
@@ -52,7 +159,7 @@ require_once 'header.php';
                 </div>
                 <div class="find-us-banner-body">
                   <p class="mb-5">
-                    Vous souhaitez visiter nos bureaux ou discuter de votre projet ? 
+                    Vous souhaitez visiter nos bureaux ou discuter de votre projet ?
                     Nous sommes à votre disposition pour répondre à toutes vos questions et vous accompagner.
                   </p>
                   <ul class="list-unstyled">
@@ -84,33 +191,6 @@ require_once 'header.php';
 </section>
 <!-- Contact Section Ends -->
 
-<!-- Newsletter Section Starts -->
-<section class="newsletter position-relative z-1 pt-10">
-    <div class="container position-relative z-2">
-        <div class="newsletter-inner p-6 bg-orange">
-            <div class="row align-items-center g-xl-5">
-                <div class="col-xl-6">
-                    <div class="newsletter-title text-center text-lg-start">
-                        <h3 class="text-white">
-                            Abonnez-vous pour ne rien manquer de nos services et projets. </h3>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="newsletter-email">
-                        <input
-                            type="email"
-                            placeholder="Votre adresse e-mail"
-                            class="w-md-75 w-100 bg-white my-4" />
-                        <a class="btn btn1 w-md-25 w-100">
-                            <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
-                            <span class="small">S’abonner</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter Section Ends -->
+
 
 <?php require_once 'footer.php'; ?>

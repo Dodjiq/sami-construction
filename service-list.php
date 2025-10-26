@@ -35,7 +35,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Contrat CCMI</a>
+                                    <a class="blue">Contrat CCMI</a>
                                 </h4>
                                 <p>
                                     Le Contrat de Construction de Maison Individuelle (CCMI) protège l’acquéreur avant le début des travaux.
@@ -52,7 +52,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Réglementation RE2020</a>
+                                    <a class="blue">Réglementation RE2020</a>
                                 </h4>
                                 <p>
                                     Nos constructions respectent les exigences de la <strong>Réglementation Environnementale 2020</strong>,
@@ -69,7 +69,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Test d’étanchéité à l’air</a>
+                                    <a class="blue">Test d’étanchéité à l’air</a>
                                 </h4>
                                 <p>
                                     L’étanchéité à l’air de chaque maison est contrôlée avec soin, pour garantir un confort optimal, une performance énergétique maximale et une qualité de construction irréprochable. </p>
@@ -84,7 +84,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie de livraison</a>
+                                    <a class="blue">Garantie de livraison</a>
                                 </h4>
                                 <p>
                                     Nous assurons la livraison de votre maison au prix convenu et dans les délais prévus, afin de protéger votre investissement contre tout risque d’inachèvement des travaux. </p>
@@ -99,7 +99,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie Biennale</a>
+                                    <a class="blue">Garantie Biennale</a>
                                 </h4>
                                 <p>
                                     Tous les équipements de votre logement, tels que volets, robinetterie ou chauffage, sont couverts pendant deux ans, pour garantir votre tranquillité dès la réception.
@@ -114,7 +114,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="#" class="blue">Garantie Décennale & Dommages-Ouvrage</a>
+                                    <a class="blue">Garantie Décennale & Dommages-Ouvrage</a>
                                 </h4>
                                 <p>
                                     La garantie décennale protège votre maison contre les dommages graves pendant dix ans, tandis que la garantie dommages-ouvrage assure la réparation rapide de tout sinistre. </p>
@@ -157,6 +157,102 @@ require_once 'header.php';
     </div>
 </section>
 <!-- Service Section Ends -->
+<!-- Service Section Ends -->
+
+<!-- Guarantees Section Starts -->
+<section class="guarantees position-relative py-10 bg-light">
+    <div class="container">
+        <div class="section-title text-center w-lg-60 m-auto mb-6">
+            <h5 class="orange">Nos garanties</h5>
+            <h2 class="pb-8 pt-2">Des engagements solides pour votre sérénité</h2>
+        </div>
+
+        <!-- Garantie 1 : Livraison à prix et délais -->
+        <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+            <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
+                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+                        <h4 class="fw-semibold blue mb-4">Garantie de livraison à prix et délais convenus</h4>
+                        <p>
+                            Obligatoire pour tout constructeur ou maître d’œuvre, cette garantie vous protège contre tout
+                            risque d’inachèvement ou de mauvaise exécution. Votre maison sera livrée au prix et dans les
+                            délais convenus, pour une totale tranquillité d’esprit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                    <div class="guarantee-image">
+                        <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie de livraison" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Garantie 2 : Biennale -->
+        <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+                        <h4 class="fw-semibold blue mb-4">Garantie Biennale (ou de bon fonctionnement)</h4>
+                        <p>
+                            Valable pendant deux ans à compter de la réception des travaux, elle couvre tous les
+                            <strong>équipements</strong> de votre maison (volets, robinetterie, appareils électriques…)
+                            pour assurer leur bon fonctionnement.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+                    <div class="guarantee-image">
+                        <img src="images/1-1019.webp" alt="Maison 3D avec piscine - Garantie biennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Garantie 3 : Décennale -->
+        <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+            <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
+                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+                        <h4 class="fw-semibold blue mb-4">Garantie Décennale</h4>
+                        <p>
+                            Cette garantie protège votre habitation pendant <strong>dix ans</strong> contre tout
+                            dommage compromettant la solidité de l’ouvrage ou le rendant impropre à son usage.
+                            Elle s’applique dès la réception de votre bien.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                    <div class="guarantee-image">
+                        <img src="images/1-1019 (1).webp" alt="Maison 3D avec piscine - Garantie décennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Garantie 4 : Dommages-Ouvrage -->
+        <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+                        <h4 class="fw-semibold blue mb-4">Garantie Dommages-Ouvrage</h4>
+                        <p>
+                            Incluse systématiquement, cette garantie assure la <strong>prise en charge rapide</strong>
+                            des réparations relevant de la garantie décennale, sans attendre la recherche des
+                            responsabilités. Elle est également exigée en cas de revente du bien dans les dix ans.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+                    <div class="guarantee-image">
+                        <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie dommages-ouvrage" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Guarantees Section Ends -->
 
 <!-- Gap Section Starts -->
 <div class="gap py-10 position-relative section-pattern">
@@ -164,108 +260,184 @@ require_once 'header.php';
 </div>
 <!-- Gap Section Ends -->
 
-<!-- Contact Us Section Starts -->
 <!-- Contact Section Starts -->
-<section class="contact pb-10 position-relative">
-    <div class="container">
-        <div class="contact-inner text-center text-lg-start">
-            <div class="row gy-5">
-                <!-- Partie gauche : info & image -->
-                <div class="col-lg-7">
-                    <div class="contact-left">
-                        <div class="conatct-ad bg-orange mb-6 p-3">
-                            <!-- <div class="row align-items-center gy-4">
-                                <div class="col-md-8 order-2 order-md-1">
-                                    <div class="contact-ad-title px-4">
-                                        <h4 class="text-white">
-                                            Découvrez comment notre expertise contribue à la réussite de vos projets !
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 order-1 order-md-2">
-                                    <div class="conatct-ad-image">
-                                        <img src="images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc3.jpg" alt="image-contact" class="w-100">
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
+<section class="contact pt-11 pb-10">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="location-map mb-8">
+        <iframe height="450" class="w-100" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=fr&amp;q=+(Sami%20Constructions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      </div>
+      <div class="contact-bottom">
+        <div class="row gx-lg-5 gy-5 align-items-stretch justify-content-center">
 
-                        <div class="contact-us-description mb-6">
-                            <h2>Obtenez un devis gratuit</h2>
-                            <p class="my-4">
-                                Vous souhaitez réaliser votre projet de construction en toute sérénité ? 
-                                Remplissez notre formulaire ou contactez-nous pour obtenir un devis personnalisé et gratuit. 
-                                Nos équipes vous accompagneront étape par étape pour concrétiser votre projet.
-                            </p>
-                            <a class="btn position-relative" href="contact.html">
-                                <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow"> 
-                                Contactez-nous
-                            </a>
-                        </div>
+          <!-- Formulaire de contact -->
+          <!-- Formulaire de contact -->
+          <div class="col-lg-6">
+            <div class="contact-form text-center text-md-start">
+              <!-- Zone de notification toast (en haut à droite) -->
+              <div id="toast" class="toast-notification"></div>
 
-                        <div class="contact-info">
-                            <span class="h6 text-uppercase antonio">Ou appelez-nous au</span>
-                            <h3>+33 4 66 20 46 83</h3>
-                        </div>
-                    </div>
-                </div>
+              <!-- Message d’erreur ou de succès -->
+              <div id="form-message" class="mb-4" style="display:none;"></div>
 
-                <!-- Partie droite : formulaire -->
-                <div class="col-lg-5">
-                    <div class="contact-right shadow">
-                        <div class="contact-form-title px-2 py-3 bg-orange text-center">
-                            <h4 class="text-white">Contactez-nous</h4>
-                        </div>
-                        <div class="contact-form p-5">
-                            <form>
-                                <input type="text" placeholder="Nom complet" class="mb-3">
-                                <input type="email" placeholder="Adresse e-mail" class="mb-3">
-                                <input type="tel" placeholder="Numéro de téléphone" class="mb-3">
-                                <textarea class="mb-3" rows="5" placeholder="Votre message"></textarea>
-                                <button class="btn">
-                                    <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow"> 
-                                    Envoyer le message
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+              <form id="contact-form">
+                <h5 class="orange">Obtenez un devis</h5>
+                <h2 class="mb-7">Demandez votre devis gratuit</h2>
+                <input type="text" name="nom" placeholder="Nom complet" class="mb-3" required>
+                <input type="email" name="email" placeholder="Adresse e-mail" class="mb-3" required>
+                <input type="tel" name="telephone" placeholder="Numéro de téléphone" class="mb-3">
+                <textarea name="message" rows="5" placeholder="Votre message" class="mb-3" required></textarea>
 
+                <button type="submit" class="btn" id="submit-btn">
+                  <span id="btn-text">Envoyer le message</span>
+                  <span id="spinner" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
+                  <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow ms-2">
+                </button>
+              </form>
             </div>
+          </div>
+
+          <script>
+            document.getElementById('contact-form').addEventListener('submit', async function(e) {
+              e.preventDefault();
+
+              const form = e.target;
+              const formData = new FormData(form);
+              const messageDiv = document.getElementById('form-message');
+              const submitBtn = document.getElementById('submit-btn');
+              const btnText = document.getElementById('btn-text');
+              const spinner = document.getElementById('spinner');
+              const toast = document.getElementById('toast');
+
+              // Réinitialiser état précédent
+              messageDiv.style.display = 'none';
+              toast.className = 'toast-notification';
+
+              // Activer spinner
+              btnText.textContent = 'Envoi en cours...';
+              spinner.style.display = 'inline-block';
+              submitBtn.disabled = true;
+
+              try {
+                const response = await fetch('mail.php', {
+                  method: 'POST',
+                  body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                  // Toast succès
+                  toast.textContent = `Message envoyé ! Réponse attendue à : ${result.email}`;
+                  toast.classList.add('toast-success', 'show');
+
+                  // Masquer après 3s
+                  setTimeout(() => {
+                    toast.classList.remove('show');
+                  }, 3000);
+
+                  form.reset();
+                } else {
+                  // Toast erreur
+                  toast.textContent = result.error;
+                  toast.classList.add('toast-error', 'show');
+
+                  setTimeout(() => {
+                    toast.classList.remove('show');
+                  }, 4000);
+                }
+              } catch (err) {
+                toast.textContent = 'Erreur réseau. Veuillez réessayer.';
+                toast.classList.add('toast-error', 'show');
+                setTimeout(() => toast.classList.remove('show'), 4000);
+              } finally {
+                btnText.textContent = 'Envoyer le message';
+                spinner.style.display = 'none';
+                submitBtn.disabled = false;
+              }
+            });
+          </script>
+
+          <!-- CSS minimal pour le spinner (si Bootstrap ne le charge pas déjà) -->
+          <style>
+            .spinner-border {
+              width: 1rem;
+              height: 1rem;
+            }
+
+            .toast-notification {
+              position: fixed;
+              top: 1rem;
+              right: 1rem;
+              padding: 1rem 1.5rem;
+              border-radius: 0.5rem;
+              color: white;
+              font-weight: 500;
+              z-index: 9999;
+              opacity: 0;
+              transform: translateY(-20px);
+              transition: opacity 0.3s ease, transform 0.3s ease;
+              max-width: 300px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            }
+
+            .toast-notification.show {
+              opacity: 1;
+              transform: translateY(0);
+            }
+
+            .toast-success {
+              background-color: #28a745;
+            }
+
+            .toast-error {
+              background-color: #dc3545;
+            }
+          </style>
+
+          <!-- Informations de contact -->
+          <div class="col-lg-6">
+            <div class="find-us-banner p-8 bg-blue text-center text-md-start text-white h-100 d-flex align-items-center">
+              <div class="find-banner-inner">
+                <div class="find-us-banner-title mb-6">
+                  <h2 class="orange">Retrouvez-nous</h2>
+                  <h4 class="text-white">Dans la vraie vie</h4>
+                </div>
+                <div class="find-us-banner-body">
+                  <p class="mb-5">
+                    Vous souhaitez visiter nos bureaux ou discuter de votre projet ?
+                    Nous sommes à votre disposition pour répondre à toutes vos questions et vous accompagner.
+                  </p>
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <a href="mailto:info@sami-constructions.com">
+                        <i class="fa fa-envelope-o me-3 orange" aria-hidden="true"></i>info@sami-constructions.com
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a href="#">
+                        <i class="fa fa-map-marker me-5 orange" aria-hidden="true"></i>65 Avenue Andrée Mazoyer, 30129 Manduel, France
+                      </a>
+                    </li>
+                    <li class="mb-3">
+                      <a href="tel:+33466204683">
+                        <i class="fa fa-phone me-3 orange" aria-hidden="true"></i>+33 4 66 20 46 83
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
     </div>
+  </div>
 </section>
 <!-- Contact Section Ends -->
 
-<!-- Newsletter Section Starts -->
-<section class="newsletter position-relative z-1 pt-10">
-    <div class="container position-relative z-2">
-        <div class="newsletter-inner p-6 bg-orange">
-            <div class="row align-items-center g-xl-5">
-                <div class="col-xl-6">
-                    <div class="newsletter-title text-center text-lg-start">
-                        <h3 class="text-white">
-                            Abonnez-vous pour ne rien manquer de nos services et projets. </h3>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="newsletter-email">
-                        <input
-                            type="email"
-                            placeholder="Votre adresse e-mail"
-                            class="w-md-75 w-100 bg-white my-4" />
-                        <a class="btn btn1 w-md-25 w-100">
-                            <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
-                            <span class="small">S’abonner</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter Section Ends -->
 
-<!-- Newsletter Section Ends -->
+
 
 <?php require_once 'footer.php'; ?>

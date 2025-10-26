@@ -811,11 +811,10 @@ require_once 'header.php';
                                 Recevez des devis gratuits et sans engagement de la part de
                                 nos experts <br />pour vos projets de construction.
                             </p>
-                            <a class="btn position-relative" href="contact.html"><img
-                                    src="images/right-arrow-white.PNG"
-                                    alt="arrow-icon"
-                                    class="btn-arrow" />
-                                Contactez-nous</a>
+                            <a class="btn position-relative" href="contact.html">
+                                <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
+                                Contactez-nous
+                            </a>
                         </div>
                         <div class="contact-info">
                             <span class="h6 text-uppercase antonio">Ou appelez-nous au</span>
@@ -829,23 +828,21 @@ require_once 'header.php';
                             <h4 class="text-white">Contactez-nous et recrutez-nous</h4>
                         </div>
                         <div class="contact-form p-5">
-                            <form>
-                                <input type="text" placeholder="Nom complet" class="mb-3" />
-                                <input
-                                    type="email"
-                                    placeholder="Adresse e-mail"
-                                    class="mb-3" />
-                                <input type="tel" placeholder="Téléphone" class="mb-3" />
-                                <textarea
-                                    class="mb-3"
-                                    rows="5"
-                                    placeholder="Message"></textarea>
-                                <button class="btn">
-                                    <img
-                                        src="images/right-arrow-white.PNG"
-                                        alt="arrow-icon"
-                                        class="btn-arrow" />
-                                    Envoyer le message
+                            <!-- Toast notification (en haut à droite) -->
+                            <div id="toast" class="toast-notification"></div>
+
+                            <!-- Message d’erreur (facultatif, mais conservé pour cohérence) -->
+                            <div id="form-message" class="mb-4" style="display:none;"></div>
+
+                            <form id="contact-form-inline">
+                                <input type="text" name="nom" placeholder="Nom complet" class="mb-3" required />
+                                <input type="email" name="email" placeholder="Adresse e-mail" class="mb-3" required />
+                                <input type="tel" name="telephone" placeholder="Téléphone" class="mb-3" />
+                                <textarea name="message" class="mb-3" rows="5" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn" id="submit-btn-inline">
+                                    <span id="btn-text-inline">Envoyer le message</span>
+                                    <span id="spinner-inline" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
+                                    <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow ms-2" />
                                 </button>
                             </form>
                         </div>
@@ -855,37 +852,95 @@ require_once 'header.php';
         </div>
     </div>
 </section>
+
+<!-- Script pour le formulaire inline -->
+<script>
+    document.getElementById('contact-form-inline').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+        const submitBtn = document.getElementById('submit-btn-inline');
+        const btnText = document.getElementById('btn-text-inline');
+        const spinner = document.getElementById('spinner-inline');
+        const toast = document.getElementById('toast');
+
+        // Réinitialiser état précédent
+        toast.className = 'toast-notification';
+
+        // Activer spinner
+        btnText.textContent = 'Envoi en cours...';
+        spinner.style.display = 'inline-block';
+        submitBtn.disabled = true;
+
+        try {
+            const response = await fetch('mail.php', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                toast.textContent = `Message envoyé ! Réponse attendue à : ${result.email}`;
+                toast.classList.add('toast-success', 'show');
+                setTimeout(() => toast.classList.remove('show'), 3000);
+                form.reset();
+            } else {
+                toast.textContent = result.error;
+                toast.classList.add('toast-error', 'show');
+                setTimeout(() => toast.classList.remove('show'), 4000);
+            }
+        } catch (err) {
+            toast.textContent = 'Erreur réseau. Veuillez réessayer.';
+            toast.classList.add('toast-error', 'show');
+            setTimeout(() => toast.classList.remove('show'), 4000);
+        } finally {
+            btnText.textContent = 'Envoyer le message';
+            spinner.style.display = 'none';
+            submitBtn.disabled = false;
+        }
+    });
+</script>
+
+<!-- CSS global pour le toast et le spinner (à placer une seule fois dans la page, idéalement dans <head>) -->
+<style>
+    .spinner-border {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .toast-notification {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        color: white;
+        font-weight: 500;
+        z-index: 9999;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        max-width: 300px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .toast-notification.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .toast-success {
+        background-color: #28a745;
+    }
+
+    .toast-error {
+        background-color: #dc3545;
+    }
+</style>
 <!-- Contact Us Section Ends -->
 
-<!-- Newsletter Section Starts -->
-<section class="newsletter position-relative z-1">
-    <div class="container position-relative z-2">
-        <div class="newsletter-inner p-6 bg-orange">
-            <div class="row align-items-center g-xl-5">
-                <div class="col-xl-6">
-                    <div class="newsletter-title text-center text-lg-start">
-                        <h3 class="text-white">
-                            Abonnez-vous à notre newsletter pour recevoir les dernières
-                            nouvelles sur nos services.
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="newsletter-email">
-                        <input
-                            type="email"
-                            placeholder="Votre adresse e-mail"
-                            class="w-md-75 w-100 bg-white my-4" /><a class="btn btn1 w-md-25 w-100"><img
-                                src="images/right-arrow-white.PNG"
-                                alt="arrow-icon"
-                                class="btn-arrow" />
-                            <span class="small">S’abonner</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Newsletter Section Ends -->
+
 
 <?php require_once 'footer.php'; ?>
