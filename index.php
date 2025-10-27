@@ -28,7 +28,7 @@ require_once 'header.php';
                                 des normes environnementales dans tout les environs du 30,34,84
                             </p>
                             <a class="btn d-inline-flex" href="contact.php"><img
-                                    src="images/right-arrow-white.PNG"
+                                    src="images/right-arrow-white.webp"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />Demander une étude personnalisée</a>
                         </div>
@@ -56,7 +56,7 @@ require_once 'header.php';
                                 performance et design, au cœur du 30,34 et ses environs.
                             </p>
                             <a class="btn d-inline-flex" href="contact.php"><img
-                                    src="images/right-arrow-white.PNG"
+                                    src="images/right-arrow-white.webp"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />Contactez-nous</a>
                         </div>
@@ -86,7 +86,7 @@ require_once 'header.php';
                                 garanties CCMI.
                             </p>
                             <a class="btn d-inline-flex" href="service-list.php"><img
-                                    src="images/right-arrow-white.PNG"
+                                    src="images/right-arrow-white.webp"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />En savoir plus</a>
                         </div>
@@ -118,7 +118,7 @@ require_once 'header.php';
                                 votre mode de vie.
                             </p>
                             <a class="btn" href="about.php"><img
-                                    src="images/right-arrow-white.PNG"
+                                    src="images/right-arrow-white.webp"
                                     alt="arrow-icon"
                                     class="btn-arrow" />
                                 En savoir plus</a>
@@ -127,7 +127,7 @@ require_once 'header.php';
                     <div class="col-lg-4 align-self-end">
                         <div class="about-us-image text-lg-end text-center">
                             <img
-                                src="images/ouvrier.png"
+                                src="images/ouvrier.webp"
                                 alt="about-us image"
                                 class="w-lg-100 w-40" />
                         </div>
@@ -260,7 +260,7 @@ require_once 'header.php';
                     <div class="col-lg-4">
                         <div class="project-top-image">
                             <img
-                                src="images/ch (1).jpg"
+                                src="images/ch (1).webp"
                                 alt="project image"
                                 class="w-lg-100 w-75" />
                         </div>
@@ -275,7 +275,7 @@ require_once 'header.php';
                 <div class="project-box1 project-box text-center position-relative">
                     <div class="overlay"></div>
                     <a
-                        href="project-list.html"
+                        href=""
                         class="text-white h4 antonio fw-semibold position-relative">Maisons contemporaines</a>
                 </div>
             </div>
@@ -283,7 +283,7 @@ require_once 'header.php';
                 <div class="project-box2 project-box text-center position-relative">
                     <div class="overlay"></div>
                     <a
-                        href="project-list.html"
+                        href=""
                         class="text-white h4 antonio fw-semibold position-relative">Maisons traditionnelles</a>
                 </div>
             </div>
@@ -291,7 +291,7 @@ require_once 'header.php';
                 <div class="project-box3 project-box text-center position-relative">
                     <div class="overlay"></div>
                     <a
-                        href="project-list.html"
+                        href=""
                         class="text-white h4 antonio fw-semibold position-relative">Rénovations & extensions</a>
                 </div>
             </div>
@@ -299,7 +299,7 @@ require_once 'header.php';
                 <div class="project-box4 project-box text-center position-relative">
                     <div class="overlay"></div>
                     <a
-                        href="project-list.html"
+                        href=""
                         class="text-white h4 antonio fw-semibold position-relative">Projets personnalisés</a>
                 </div>
             </div>
@@ -356,7 +356,7 @@ require_once 'header.php';
                 class="testimonial-slider text-center w-md-75 w-80 m-auto text-white">
                 <div class="slide">
                     <img
-                        src="images/dg.jpg"
+                        src="images/dg.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -372,7 +372,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/fon.jpg"
+                        src="images/fon.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -386,7 +386,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/fe.jpg"
+                        src="images/fe.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -464,7 +464,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/rt.jpg"
+                                src="images/rt.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -503,7 +503,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/cc.jpg"
+                                src="images/cc.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -542,7 +542,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/ww.jpg"
+                                src="images/ww.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -551,23 +551,6 @@ require_once 'header.php';
                                     <span class="yellow antonio h5 fw-bold">Wade Warren</span>
                                     <p class="text-white">Analyst</p>
                                 </div>
-                                <ul class="social-link pb-2 ps-0">
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-pinterest-p"></i></a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -592,40 +575,40 @@ require_once 'header.php';
                 <div class="col-lg-10">
                     <div class="partner-slider py-4">
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-BELM.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-BELM.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-DELTADORE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-DELTADORE.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-DEVIC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-DEVIC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-EDILIANS.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-EDILIANS.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-FABEMI.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-FABEMI.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-FIC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-FIC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-GAU.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-GAU.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-ISOVER.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-ISOVER.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-LIB-GROUPE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-LIB-GROUPE.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-PAREXLANKO.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-PAREXLANKO.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-SEAC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-SEAC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-SUD-FERMETURE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-SUD-FERMETURE.webp" alt="partner-image" width="50%" />
                         </div>
                     </div>
                 </div>
@@ -685,7 +668,7 @@ require_once 'header.php';
                         <div class="news-card bg-white border border-1 border-orange">
                             <div class="news-image position-relative">
                                 <a href="blog-single.html"><img
-                                        src="images/construire-blog.jpg"
+                                        src="images/construire-blog.webp"
                                         alt="blog-image"
                                         class="w-100" /></a>
                             </div>
@@ -713,7 +696,7 @@ require_once 'header.php';
                         <div class="news-card bg-white border border-1 border-orange">
                             <div class="news-image position-relative">
                                 <a href="blog-single.html"><img
-                                        src="images/ccmi.jpg"
+                                        src="images/ccmi.webp"
                                         alt="blog-image"
                                         class="w-100" /></a>
                             </div>
@@ -741,7 +724,7 @@ require_once 'header.php';
                         <div class="news-card bg-white border border-1 border-orange">
                             <div class="news-image position-relative">
                                 <a href="blog-single.html"><img
-                                        src="images/budget.jpg"
+                                        src="images/budget.webp"
                                         alt="blog-image"
                                         class="w-100" /></a>
                             </div>
@@ -797,7 +780,7 @@ require_once 'header.php';
                                 <div class="col-md-4 order-1 order-md-2">
                                     <div class="conatct-ad-image">
                                         <img
-                                            src="images/100.jpg"
+                                            src="images/100.webp"
                                             alt="banner-image"
                                             class="w-100" />
                                     </div>
@@ -811,7 +794,7 @@ require_once 'header.php';
                                 nos experts <br />pour vos projets de construction.
                             </p>
                             <a class="btn position-relative" href="contact.html">
-                                <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
+                                <img src="images/right-arrow-white.webp" alt="arrow-icon" class="btn-arrow" />
                                 Contactez-nous
                             </a>
                         </div>
@@ -841,7 +824,7 @@ require_once 'header.php';
                                 <button type="submit" class="btn" id="submit-btn-inline">
                                     <span id="btn-text-inline">Envoyer le message</span>
                                     <span id="spinner-inline" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
-                                    <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow ms-2" />
+                                    <img src="images/right-arrow-white.webp" alt="arrow-icon" class="btn-arrow ms-2" />
                                 </button>
                             </form>
                         </div>

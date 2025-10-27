@@ -76,21 +76,21 @@
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <a href="service-detail.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Construction neuve</a>
                             </li>
                             <li class="mb-3">
                                 <a href="service-detail.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Rénovation & agrandissement</a>
                             </li>
                             <li class="mb-3">
                                 <a href="service-detail.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Accompagnement & conseils</a>
@@ -104,28 +104,28 @@
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <a href="index.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Accueil</a>
                             </li>
                             <li class="mb-3">
                                 <a href="about.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     À propos</a>
                             </li>
                             <li class="mb-3">
                                 <a href="project-list.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Réalisations</a>
                             </li>
                             <li>
                                 <a href="contact.php"><img
-                                        src="images/right-arrow-white.PNG"
+                                        src="images/right-arrow-white.webp"
                                         alt="arrow-icon"
                                         class="btn-arrow me-3" />
                                     Contact</a>

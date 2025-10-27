@@ -204,7 +204,32 @@ header .contact-info-icon i {
 .banner::after {
   background-image: url(../images/shape10.png);
 }
-
+#btn-header {
+  font-family: "Antonio", Sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  line-height: 1;
+  border-radius: 0;
+}
+#btn-header:hover {
+  font-family: "Antonio", Sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #92c94a;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  line-height: 1;
+  border-radius: 0;
+}
 .banner .slick-prev,
 .banner .slick-next {
   position: absolute;
@@ -276,7 +301,7 @@ header .contact-info-icon i {
 }
 
 .about-us::after {
-  background-image: url(../images/shape10.jpg);
+  background-image: url(../images/shape10.webp);
   z-index: 0;
   height: 120px;
 }
@@ -284,15 +309,15 @@ header .contact-info-icon i {
 /* Services CSS */
 .service .overlay {
   background-color: #e9e9e966;
-  background-image: url(../images/body.png);
+  background-image: url(../images/body.webp);
   background-position: bottom left;
   background-repeat: no-repeat;
 }
 
-.service::after {
+/*.service::after {
   background-image: url(../images/shape92.PNG);
   z-index: 0;
-}
+}*/
 
 /* Project CSS */
 @media (min-width: 992px) {
@@ -303,7 +328,7 @@ header .contact-info-icon i {
 
 .project-box1,
 .project-box {
-  background-image: url(../images/maison-moderne.jpg);
+  background-image: url(../images/maison-moderne.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,19 +336,19 @@ header .contact-info-icon i {
 }
 
 .project-box2 {
-  background-image: url(../images/maison-traditionnel.jpg);
+  background-image: url(../images/maison-traditionnel.webp);
 }
 
 .project-box3 {
-  background-image: url(../images/renovation.jpg);
+  background-image: url(../images/renovation.webp);
 }
 
 .project-box4 {
-  background-image: url(../images/projet-personnaliser.jpg);
+  background-image: url(../images/projet-personnaliser.webp);
 }
 
 .project-box5 {
-  background-image: url(../images/nous-contacter.jpg);
+  background-image: url(../images/nous-contacter.webp);
 }
 
 .project-bottom .overlay {
@@ -343,7 +368,7 @@ header .contact-info-icon i {
 
 /* Testimonial CSS */
 .testimonial {
-  background-image: url(../images/testimonial.png);
+  background-image: url(../images/testimonial.webp);
 }
 
 .testimonial-slider img,
@@ -392,7 +417,7 @@ header .contact-info-icon i {
 
 /* Ad- Banner CSS */
 .add-banner-button {
-  background-image: url(../images/nous-contacter.jpg);
+  background-image: url(../images/nous-contacter.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -491,7 +516,7 @@ header .contact-info-icon i {
 
 /* Video Banner CSS */
 .video-banner {
-  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc1.jpg);
+  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc1.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -499,18 +524,18 @@ header .contact-info-icon i {
 }
 
 .video-banner::before {
-  background-image: url(../images/shape11\ white.PNG);
+  background-image: url(../images/shape11\ white.webp);
   z-index: 1;
 }
 
 .video-banner::after {
-  background-image: url(../images/shape10.jpg);
+  background-image: url(../images/shape10.webp);
   z-index: 1;
 }
 
 .video-banner-left a {
   height: 600px;
-  background-image: url(../images/interior-construction-team-meeting-brainstorming-c-2021-08-26-23-57-39-utc-1.jpg);
+  background-image: url(../images/interior-construction-team-meeting-brainstorming-c-2021-08-26-23-57-39-utc-1.webp);
   background-position: center;
   border-width: 8px !important;
   cursor: pointer;
@@ -551,19 +576,19 @@ header .contact-info-icon i {
 }
 
 .news {
-  background-image: url(../images/testi-bg\ copy.PNG);
+  background-image: url(../images/testi-bg\ copy.webp);
   background-position: bottom right;
   background-repeat: no-repeat;
 }
 
 /* Gap CSS */
 .gap::before {
-  background-image: url(../images/shape11.jpg);
+  background-image: url(../images/shape11.webp);
   z-index: 1;
 }
 
 .gap {
-  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc3.jpg);
+  background-image: url(../images/welder-used-grinding-stone-on-steel-in-factory-wit-2022-02-08-22-39-25-utc3.webp);
   padding-bottom: 150px !important;
   background-attachment: fixed;
 }
@@ -585,7 +610,7 @@ header .contact-info-icon i {
 }
 
 footer .overlay {
-  background-image: url(../images/building2.jpg);
+  background-image: url(../images/building2.webp);
   background-position: bottom left;
   background-repeat: repeat-x;
   opacity: 0.05;
@@ -608,7 +633,7 @@ footer .overlay {
 }
 
 .about-detail::after {
-  background-image: url(../images/shape10.jpg);
+  background-image: url(../images/shape10.webp);
 }
 
 .about-us-page .service::after,
@@ -617,11 +642,11 @@ footer .overlay {
 }
 
 .about-us-page .video-banner::after {
-  background-image: url(../images/shape10.png);
+  background-image: url(../images/shape10.webp);
 }
 
 .about-us-page .video-banner::before {
-  background-image: url(../images/shape11.jpg);
+  background-image: url(../images/shape11.webp);
 }
 
 .about-us-page .about-us-counter {
@@ -629,7 +654,7 @@ footer .overlay {
 }
 
 .about-us-page .testimonial::after {
-  background-image: url(../images/shape10.png);
+  background-image: url(../images/shape10.webp);
 }
 
 /* ========================================= */
@@ -640,13 +665,13 @@ footer .overlay {
 .team-page .gap::before,
 .career-list-page .gap::before,
 .pricing-page .gap::before {
-  background-image: url(../images/shape11\ white.PNG);
+  background-image: url(../images/shape11\ white.webp);
 }
 
 .service-detail-page .service-detail,
 .project-detail-page .project-detail,
 .team-detail-page .team-detail {
-  background-image: url(../images/body.png);
+  background-image: url(../images/body.webp);
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -720,7 +745,7 @@ footer .overlay {
 }
 
 .cv-box {
-  background-image: url(../images/young-busy-worker-of-factory-scrolling-in-tablet-i-2022-03-09-22-19-59-utc.jpg);
+  background-image: url(../images/young-busy-worker-of-factory-scrolling-in-tablet-i-2022-03-09-22-19-59-utc.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -731,11 +756,11 @@ footer .overlay {
 /* ========================================= */
 
 .testimonial-1::before {
-  background-image: url(../images/shape11\ white.PNG);
+  background-image: url(../images/shape11\ white.webp);
 }
 
 .testimonial-1::after {
-  background-image: url(../images/shape10.png);
+  background-image: url(../images/shape10.webp);
 }
 
 .client-info img {
@@ -769,7 +794,7 @@ footer .overlay {
 }
 
 .error {
-  background-image: url(../images/body.png);
+  background-image: url(../images/body.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -780,7 +805,7 @@ footer .overlay {
 /* ========================================= */
 .coming-soon .overlay {
   background-color: transparent;
-  background-image: url(../images/testimonial.png);
+  background-image: url(../images/testimonial.webp);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.75;
@@ -863,7 +888,7 @@ footer .overlay {
 }
 
 .order-service {
-  background-image: url(../images/young-serious-engineer-in-respirator-hardhat-and-2022-03-09-22-17-43-utc.jpg);
+  background-image: url(../images/young-serious-engineer-in-respirator-hardhat-and-2022-03-09-22-17-43-utc.webp);
 }
 
 .photo-gallery img:hover {

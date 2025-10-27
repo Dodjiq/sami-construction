@@ -10,7 +10,7 @@
     <link
         rel="shortcut icon"
         type="image/x-icon"
-        href="images/cropped-favicon1-192x192.png" />
+        href="images/cropped-favicon1-192x192.webp" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!--CSS Plugins-->
@@ -76,19 +76,17 @@
                                             aria-hidden="true"></i>
                                     </li>
                                     <li class="contact-info-description">
-                                        <span class="h6 text-white antonio text-uppercase">Téléphone</span>
-                                        <p class="text-white">+33 4 66 20 46 83</p>
+                                        <span class="h6 text-white antonio text-uppercase">Nous appeler</span>
+                                        <p class="text-white"><a href="tel:+33 4 66 20 46 83">+33 4 66 20 46 83</a></p>
                                     </li>
                                 </ul>
                                 <ul class="m-0 p-0 list-unstyled d-flex align-items-center">
-                                    <li class="contact-info-icon me-2">
-                                        <i
-                                            class="fa fa-envelope bg-white lh-lg orange rounded-circle text-center"
-                                            aria-hidden="true"></i>
-                                    </li>
-                                    <li class="contact-info-description">
-                                        <span class="h6 text-white antonio text-uppercase">Adresse e-mail</span>
-                                        <p class="text-white">contact@sami-construction.com</p>
+                                    <li>
+                                        <a  href="contact.php" id="btn-header"><img
+                                         src="images/right-arrow-white.webp"
+                                         alt="arrow-icon"
+                                         class="btn-arrow" />
+                                        Contactez-nous</a>
                                     </li>
                                 </ul>
                             </div>
