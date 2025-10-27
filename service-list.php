@@ -161,97 +161,161 @@ require_once 'header.php';
 
 <!-- Guarantees Section Starts -->
 <section class="guarantees position-relative py-10 bg-light">
-    <div class="container">
-        <div class="section-title text-center w-lg-60 m-auto mb-6">
-            <h5 class="orange">Nos garanties</h5>
-            <h2 class="pb-8 pt-2">Des engagements solides pour votre sérénité</h2>
-        </div>
-
-        <!-- Garantie 1 : Livraison à prix et délais -->
-        <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
-            <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
-                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
-                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
-                        <h4 class="fw-semibold blue mb-4">Garantie de livraison à prix et délais convenus</h4>
-                        <p>
-                            Obligatoire pour tout constructeur ou maître d’œuvre, cette garantie vous protège contre tout
-                            risque d’inachèvement ou de mauvaise exécution. Votre maison sera livrée au prix et dans les
-                            délais convenus, pour une totale tranquillité d’esprit.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
-                    <div class="guarantee-image">
-                        <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie de livraison" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Garantie 2 : Biennale -->
-        <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
-            <div class="row align-items-center g-4">
-                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
-                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
-                        <h4 class="fw-semibold blue mb-4">Garantie Biennale (ou de bon fonctionnement)</h4>
-                        <p>
-                            Valable pendant deux ans à compter de la réception des travaux, elle couvre tous les
-                            <strong>équipements</strong> de votre maison (volets, robinetterie, appareils électriques…)
-                            pour assurer leur bon fonctionnement.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
-                    <div class="guarantee-image">
-                        <img src="images/1-1019.webp" alt="Maison 3D avec piscine - Garantie biennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Garantie 3 : Décennale -->
-        <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
-            <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
-                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
-                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
-                        <h4 class="fw-semibold blue mb-4">Garantie Décennale</h4>
-                        <p>
-                            Cette garantie protège votre habitation pendant <strong>dix ans</strong> contre tout
-                            dommage compromettant la solidité de l’ouvrage ou le rendant impropre à son usage.
-                            Elle s’applique dès la réception de votre bien.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
-                    <div class="guarantee-image">
-                        <img src="images/1-1019 (1).webp" alt="Maison 3D avec piscine - Garantie décennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Garantie 4 : Dommages-Ouvrage -->
-        <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
-            <div class="row align-items-center g-4">
-                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
-                    <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
-                        <h4 class="fw-semibold blue mb-4">Garantie Dommages-Ouvrage</h4>
-                        <p>
-                            Incluse systématiquement, cette garantie assure la <strong>prise en charge rapide</strong>
-                            des réparations relevant de la garantie décennale, sans attendre la recherche des
-                            responsabilités. Elle est également exigée en cas de revente du bien dans les dix ans.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
-                    <div class="guarantee-image">
-                        <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie dommages-ouvrage" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="section-title text-center w-lg-60 m-auto mb-6">
+      <h5 class="orange">Nos garanties</h5>
+      <h2 class="pb-8 pt-2">Des engagements solides pour votre sérénité</h2>
     </div>
+
+    <!-- Bloc 1 : L’objectif du CCMI -->
+    <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">L’objectif du CCMI</h4>
+            <p>
+              Le <strong>Contrat de Construction de Maison Individuelle (CCMI)</strong> a pour but de protéger le maître d’ouvrage
+              en encadrant les obligations du constructeur. Il garantit le respect du prix convenu, des délais et des assurances
+              indispensables à la bonne réalisation de votre maison.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-image">
+            <img src="images/ccmi.webp" alt="Illustration CCMI" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloc 2 : Réglementation Environnementale RE2020 -->
+    <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+      <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Réglementation Environnementale RE2020</h4>
+            <p>
+              Nos constructions respectent les exigences de la <strong>RE2020</strong>, une norme qui vise à réduire l’impact
+              environnemental des bâtiments neufs. Elle garantit des maisons durables, économes en énergie et plus confortables
+              tout au long de l’année.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-image">
+            <img src="images/re2020.webp" alt="Maison écologique RE2020" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloc 3 : Test d’étanchéité à l’air -->
+    <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Test d’étanchéité à l’air</h4>
+            <p>
+              L’étanchéité à l’air est essentielle pour garantir les performances énergétiques et le confort de votre logement.
+              Chaque maison fait l’objet d’un <strong>test rigoureux</strong> afin d’assurer une isolation optimale et des économies
+              d’énergie durables.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-image">
+            <img src="images/Test.webp" alt="Test d’étanchéité à l’air" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Garantie 1 : Livraison à prix et délais -->
+    <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+      <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Garantie de livraison à prix et délais convenus</h4>
+            <p>
+              Obligatoire pour tout constructeur ou maître d’œuvre, cette garantie vous protège contre tout
+              risque d’inachèvement ou de mauvaise exécution. Votre maison sera livrée au prix et dans les
+              délais convenus, pour une totale tranquillité d’esprit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-image">
+            <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie de livraison" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Garantie 2 : Biennale -->
+    <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Garantie Biennale (ou de bon fonctionnement)</h4>
+            <p>
+              Valable pendant deux ans à compter de la réception des travaux, elle couvre tous les
+              <strong>équipements</strong> de votre maison (volets, robinetterie, appareils électriques…)
+              pour assurer leur bon fonctionnement.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-image">
+            <img src="images/1-1019.webp" alt="Maison 3D avec piscine - Garantie biennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Garantie 3 : Décennale -->
+    <div class="guarantee-item py-5" style="background-color: #92c94a; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+      <div class="row align-items-center g-4" style="max-width: 1320px; margin: 0 auto;">
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Garantie Décennale</h4>
+            <p>
+              Cette garantie protège votre habitation pendant <strong>dix ans</strong> contre tout
+              dommage compromettant la solidité de l’ouvrage ou le rendant impropre à son usage.
+              Elle s’applique dès la réception de votre bien.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-image">
+            <img src="images/1-1019 (1).webp" alt="Maison 3D avec piscine - Garantie décennale" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Garantie 4 : Dommages-Ouvrage -->
+    <div class="guarantee-item py-5" style="max-width: 1320px; margin: 0 auto;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+          <div class="guarantee-content p-6 bg-white border border-1 border-orange h-100">
+            <h4 class="fw-semibold blue mb-4">Garantie Dommages-Ouvrage</h4>
+            <p>
+              Incluse systématiquement, cette garantie assure la <strong>prise en charge rapide</strong>
+              des réparations relevant de la garantie décennale, sans attendre la recherche des
+              responsabilités. Elle est également exigée en cas de revente du bien dans les dix ans.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+          <div class="guarantee-image">
+            <img src="images/RE2020-1.webp" alt="Maison 3D avec piscine - Garantie dommages-ouvrage" class="w-100" style="height: 300px; object-fit: cover; border-radius: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
 <!-- Guarantees Section Ends -->
 
 <!-- Gap Section Starts -->
