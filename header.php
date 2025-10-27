@@ -34,14 +34,26 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.96);
         }
 
+        .upper-header {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+        @media (max-width: 1199px) {
+            .upper-header {
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+        }
+
         body {
             padding-top: 170px;
             /* Make space for header; adjust as needed */
         }
 
-        @media (max-width: 991px) {
+        @media (max-width: 1199px) {
             body {
-                padding-top: 120px;
+                padding-top: 90px;
             }
         }
 
@@ -50,6 +62,11 @@
         .lower-header {
             background-clip: padding-box;
         }
+
+        /* Ensure mobile menu wrapper is visible on mobile */
+        /* #mobile-menu-wrapper {
+            display: block !important;
+        } */
     </style>
 </head>
 
@@ -59,7 +76,7 @@
         <div class="upper-header bg-orange py-4">
             <div class="container">
                 <div class="upper-header-inner">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center d-none d-xl-flex">
                         <div class="col-xl-6 text-center text-xl-start">
                             <div class="header-logo">
                                 <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="45%" /></a>
@@ -67,7 +84,7 @@
                         </div>
                         <div class="col-xl-6">
                             <div
-                                class="header-contact-info d-xl-flex justify-content-end d-none d-xl-block">
+                                class="header-contact-info d-xl-flex justify-content-end">
                                 <ul
                                     class="m-0 p-0 list-unstyled d-flex align-items-center me-3">
                                     <li class="contact-info-icon me-2">
@@ -82,15 +99,22 @@
                                 </ul>
                                 <ul class="m-0 p-0 list-unstyled d-flex align-items-center">
                                     <li>
-                                        <a  href="contact.php" id="btn-header"><img
-                                         src="images/right-arrow-white.webp"
-                                         alt="arrow-icon"
-                                         class="btn-arrow" />
-                                        Contactez-nous</a>
+                                        <a href="contact.php" id="btn-header"><img
+                                                src="images/right-arrow-white.webp"
+                                                alt="arrow-icon"
+                                                class="btn-arrow" />
+                                            Contactez-nous</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <!-- Mobile header: logo left, menu button right -->
+                    <div class="mobile-header d-flex d-xl-none justify-content-between align-items-center mt-2">
+                        <div class="mobile-logo">
+                            <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="150px" /></a>
+                        </div>
+                        <div id="mobile-menu-wrapper"></div>
                     </div>
                 </div>
             </div>
@@ -151,7 +175,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a  targert="_blank" href="https://www.youtube.com/channel/UCDgY-qbqYxmcZeSU-AoK_Qg/videos">
+                                        <a targert="_blank" href="https://www.youtube.com/channel/UCDgY-qbqYxmcZeSU-AoK_Qg/videos">
                                             <i
                                                 class="fa fa-youtube-play bg-orange text-center lh-lg"
                                                 aria-hidden="true"></i>
@@ -161,7 +185,6 @@
                             </div>
                         </div>
                     </div>
-                    <div id="slicknav-mobile"></div>
                 </div>
             </div>
         </div>

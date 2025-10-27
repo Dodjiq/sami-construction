@@ -17,7 +17,7 @@
             easingClose: 'easeOutExpo',
             closedSymbol: '<i class="arrow-indicator fa fa-angle-down"></i>',
             openedSymbol: '<i class="arrow-indicator fa fa-angle-up"></i>',
-            prependTo: '#slicknav-mobile',
+            prependTo: '#mobile-menu-wrapper',
             allowParentLinks: true,
             label: ""
         });
