@@ -19,16 +19,15 @@ require_once 'header.php';
                     <div class="container">
                         <div class="banner-content-inner text-center h5 w-75 m-auto">
                             <h1 class="text-white mb-6">
-                                NOS SERVICES DE CONSTRUCTION SUR MESURE
+                                NOS SERVICES DE CONSTRUCTION SUR MESURE 
                             </h1>
                             <p class="mb-6 text-white">
                                 Depuis plus de 50 ans, Sami Constructions <br />
                                 bâtit des maisons individuelles alliant qualité, confort et
                                 respect <br />
-                                des normes environnementales dans tout le Gard et ses
-                                environs.
+                                des normes environnementales dans tout les environs du 30,34,84
                             </p>
-                            <a class="btn d-inline-flex" href="contact.html"><img
+                            <a class="btn d-inline-flex" href="contact.php"><img
                                     src="images/right-arrow-white.PNG"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />Demander une étude personnalisée</a>
@@ -49,14 +48,14 @@ require_once 'header.php';
                     <div class="container">
                         <div class="banner-content-inner text-center h5 w-75 m-auto">
                             <h1 class="text-white mb-6">
-                                Construisez votre maison d’avenir avec nous
+                                Construisez votre maison d’avenir avec nous dans le 30
                             </h1>
                             <p class="mb-6 text-white">
                                 Depuis 1973, nous réalisons des maisons sur mesure alliant
                                 confort,<br />
-                                performance et design, au cœur du Gard et de ses environs.
+                                performance et design, au cœur du 30,34 et ses environs.
                             </p>
-                            <a class="btn d-inline-flex" href="contact.html"><img
+                            <a class="btn d-inline-flex" href="contact.php"><img
                                     src="images/right-arrow-white.PNG"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />Contactez-nous</a>
@@ -77,7 +76,7 @@ require_once 'header.php';
                     <div class="container">
                         <div class="banner-content-inner text-center h5 w-75 m-auto">
                             <h1 class="text-white mb-6">
-                                Nous construisons votre projet de rêve
+                                Nous construisons votre projet de rêve dans le 84
                             </h1>
                             <p class="mb-6 text-white">
                                 De la conception à la remise des clés, notre équipe réalise
@@ -86,7 +85,7 @@ require_once 'header.php';
                                 toutes les<br />
                                 garanties CCMI.
                             </p>
-                            <a class="btn d-inline-flex" href="about.html"><img
+                            <a class="btn d-inline-flex" href="service-list.php"><img
                                     src="images/right-arrow-white.PNG"
                                     alt="arrow-icon"
                                     class="btn-arrow me-1" />En savoir plus</a>
@@ -118,7 +117,7 @@ require_once 'header.php';
                                 durables, performantes et parfaitement <br />adaptées à
                                 votre mode de vie.
                             </p>
-                            <a class="btn" href="about.html"><img
+                            <a class="btn" href="about.php"><img
                                     src="images/right-arrow-white.PNG"
                                     alt="arrow-icon"
                                     class="btn-arrow" />
@@ -139,7 +138,7 @@ require_once 'header.php';
                 <div class="row gy-4">
                     <div class="col-lg-3 col-md-6">
                         <div class="clients-countdown text-center">
-                            <span class="counter-num fw-bold antonio text-white"><span class="num" data-val="54"></span>K+</span>
+                            <span class="counter-num fw-bold antonio text-white"><span class="num" data-val="50"></span>+</span>
                             <p class="light-grey h6 fw-semibold">ans d’expérience</p>
                         </div>
                     </div>
@@ -189,7 +188,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="service-detail.html" class="blue">Construction neuve</a>
+                                    <a href="service-list.php#neuve" class="blue">Construction neuve</a>
                                 </h4>
                                 <p>
                                     Création de maisons contemporaines ou traditionnelles, sur
@@ -207,7 +206,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="service-detail.html" class="blue">Rénovation & agrandissement</a>
+                                    <a href="service-list.php#renovation" class="blue">Rénovation & agrandissement</a>
                                 </h4>
                                 <p>
                                     Donnez une seconde vie à votre habitation ! Nous réalisons
@@ -225,7 +224,7 @@ require_once 'header.php';
                             </div>
                             <div class="service-detail">
                                 <h4 class="my-2 fw-medium">
-                                    <a href="service-detail.html" class="blue">Accompagnement & conseils
+                                    <a href="service-list.php#conseils" class="blue">Accompagnement & conseils
                                     </a>
                                 </h4>
                                 <p>

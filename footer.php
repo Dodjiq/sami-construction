@@ -17,34 +17,34 @@
                         </p>
                         <ul
                             class="list-unstyled d-flex socials justify-content-center justify-content-md-start">
-                            <li class="me-2">
+                            <!--<li class="me-2">
                                 <a href="">
                                     <i
                                         class="fa fa-linkedin-square lh-lg text-white text-center border border-1 border-secondary"
                                         aria-hidden="true"></i>
                                 </a>
-                            </li>
+                            </li>-->
                             <li class="me-2">
-                                <a href="https://www.facebook.com/profile.php?id=100085516713278">
+                                <a targert="_blank" href="https://www.facebook.com/profile.php?id=100085516713278">
                                     <i
                                         class="fa fa-facebook-square lh-lg text-white text-center border border-1 border-secondary"
                                         aria-hidden="true"></i>
                                 </a>
                             </li>
-                            <li class="me-2">
+                            <!--<li class="me-2">
                                 <a href="">
                                     <i
                                         class="fa fa-twitter-square lh-lg text-white text-center border border-1 border-secondary"
                                         aria-hidden="true"></i>
                                 </a>
-                            </li>
-                            <li>
+                            </li>-->
+                            <!--<li>
                                 <a href="">
                                     <i
                                         class="fa fa-skype text-center lh-lg text-white border border-1 border-secondary"
                                         aria-hidden="true"></i>
                                 </a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
@@ -53,13 +53,13 @@
                         <h5 class="text-white mb-6">Informations de contact</h5>
                         <ul class="list-unstyled">
                             <li class="mb-3">
-                                <a href="tel:+33466204683"><i class="fa fa-headphones me-3" aria-hidden="true"></i>+33 4 66 20 46 83</a>
+                                <a targert="_blank" href="tel:+33466204683"><i class="fa fa-headphones me-3" aria-hidden="true"></i>+33 4 66 20 46 83</a>
                             </li>
                             <li class="mb-3">
                                 <a href="mailto:contact@sami-construction.com"><i class="fa fa-envelope-o me-3" aria-hidden="true"></i>contact@sami-construction.com</a>
                             </li>
                             <li>
-                                <a
+                                <a  targert="_blank"
                                     href="https://maps.google.com/?q=65%20Av.%20Andr%C3%A9%20Mazoyer%2C%2030129%20Manduel%2C%20France"
                                     class="d-flex align-items-center justify-content-center justify-content-md-start"><span><i
                                             class="fa fa-map-marker me-4"

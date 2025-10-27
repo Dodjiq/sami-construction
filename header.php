@@ -146,14 +146,14 @@
                             <div class="socials py-4 d-none d-xl-block">
                                 <ul class="list-unstyled d-flex justify-content-end">
                                     <li class="me-2">
-                                        <a href="https://www.facebook.com/profile.php?id=100085516713278">
+                                        <a targert="_blank" href="https://www.facebook.com/profile.php?id=100085516713278">
                                             <i
                                                 class="fa fa-facebook-square bg-orange lh-lg text-center"
                                                 aria-hidden="true"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/channel/UCDgY-qbqYxmcZeSU-AoK_Qg/videos">
+                                        <a  targert="_blank" href="https://www.youtube.com/channel/UCDgY-qbqYxmcZeSU-AoK_Qg/videos">
                                             <i
                                                 class="fa fa-youtube-play bg-orange text-center lh-lg"
                                                 aria-hidden="true"></i>

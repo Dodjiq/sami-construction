@@ -20,8 +20,8 @@ require_once 'header.php';
     <div class="container position-relative">
         <div class="error-inner text-center">
             <h1 class="pb-4">404</h1>
-            <span class="h3 antonio fw-semibold orange m-0">Hmmm, That page does not Exist...</span>
-            <p class="h5 antonio fw-semibold m-0 pt-2 mb-5">Why Not return to the home page and continue browsing?</p>
+            <span class="h3 antonio fw-semibold orange m-0">Hmmm, Cette page n'hesxiste pas...</span>
+            <p class="h5 antonio fw-semibold m-0 pt-2 mb-5">Retourner sur la page d'accueil pour continuer browsing?</p>
             <a href="index.html" class="btn"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow"> Back Home</a>
         </div>
     </div>
