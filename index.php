@@ -11,7 +11,7 @@ require_once 'header.php';
             <div class="banner-image position-relative">
                 <div class="overlay"></div>
                 <img
-                    src="images/ban1.jpg"
+                    src="images/ban1.webp"
                     alt="banner-image"
                     class="w-100 object-fit-cover" />
                 <div
@@ -40,7 +40,7 @@ require_once 'header.php';
             <div class="banner-image position-relative">
                 <div class="overlay"></div>
                 <img
-                    src="images/ban2.jpg"
+                    src="images/ban2.webp"
                     alt="banner-image"
                     class="w-100 object-fit-cover" />
                 <div
@@ -68,7 +68,7 @@ require_once 'header.php';
             <div class="banner-image position-relative">
                 <div class="overlay"></div>
                 <img
-                    src="images/ban3.jpg"
+                    src="images/ban3.webp"
                     alt="banner-image"
                     class="w-100 object-fit-cover" />
                 <div

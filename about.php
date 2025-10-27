@@ -37,11 +37,11 @@ require_once 'header.php';
                 <div class="col-lg-6">
                     <div class="about-detail-right text-lg-end">
                         <img
-                            src="images/ch (4).jpg"
+                            src="images/ch (4).webp"
                             alt="about-detail image"
                             class="w-80" />
                         <img
-                            src="images/ch (3).jpg"
+                            src="images/ch (3).webp"
                             alt="about-detail image"
                             class="w-80 image-1" />
                     </div>
@@ -263,7 +263,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/rt.jpg"
+                                src="images/rt.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -350,23 +350,6 @@ require_once 'header.php';
                                     <span class="yellow antonio h5 fw-bold">Wade Warren</span>
                                     <p class="text-white">Analyst</p>
                                 </div>
-                                <ul class="social-link pb-2 ps-0">
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="d-inline-block">
-                                        <a
-                                            href="#"
-                                            class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-pinterest-p"></i></a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -391,40 +374,40 @@ require_once 'header.php';
                 <div class="col-lg-10">
                     <div class="partner-slider py-4">
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-BELM.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-BELM.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-DELTADORE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-DELTADORE.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-DEVIC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-DEVIC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-EDILIANS.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-EDILIANS.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-FABEMI.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-FABEMI.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-FIC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-FIC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-GAU.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-GAU.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-ISOVER.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-ISOVER.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-LIB-GROUPE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-LIB-GROUPE.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-PAREXLANKO.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-PAREXLANKO.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-SEAC.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-SEAC.webp" alt="partner-image" width="50%" />
                         </div>
                         <div class="slide d-flex justify-content-center">
-                            <img src="images/partenaires/logo-SUD-FERMETURE.jpg" alt="partner-image" width="50%" />
+                            <img src="images/partenaires/logo-SUD-FERMETURE.webp" alt="partner-image" width="50%" />
                         </div>
                     </div>
                 </div>
@@ -442,7 +425,7 @@ require_once 'header.php';
                 class="testimonial-slider text-center w-md-75 w-80 m-auto text-white">
                 <div class="slide">
                     <img
-                        src="images/dg.jpg"
+                        src="images/dg.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -458,7 +441,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/fon.jpg"
+                        src="images/fon.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">
@@ -472,7 +455,7 @@ require_once 'header.php';
                 </div>
                 <div class="slide">
                     <img
-                        src="images/fe.jpg"
+                        src="images/fe.webp"
                         alt="testimonial-image"
                         class="rounded-circle object-fit-cover mb-5 m-auto" />
                     <p class="h5 fst-italic mb-5">

@@ -62,7 +62,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-6 text-center text-xl-start">
                             <div class="header-logo">
-                                <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="50%" /></a>
+                                <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="45%" /></a>
                             </div>
                         </div>
                         <div class="col-xl-6">

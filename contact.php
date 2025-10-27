@@ -18,9 +18,6 @@ require_once 'header.php';
 <section class="contact pt-11 pb-10">
   <div class="container">
     <div class="contact-inner">
-      <div class="location-map mb-8">
-        <iframe height="450" class="w-100" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=fr&amp;q=+(Sami%20Constructions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-      </div>
       <div class="contact-bottom">
         <div class="row gx-lg-5 gy-5 align-items-stretch justify-content-center">
 
@@ -50,7 +47,7 @@ require_once 'header.php';
               </form>
             </div>
           </div>
-
+        
           <script>
             document.getElementById('contact-form').addEventListener('submit', async function(e) {
               e.preventDefault();
@@ -186,7 +183,11 @@ require_once 'header.php';
 
         </div>
       </div>
+      <div class="location-map mb-8" style="margin-top: 60px;;">
+        <iframe height="450" class="w-100" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=fr&amp;q=+(Sami%20Constructions)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      </div>
     </div>
+
   </div>
 </section>
 <!-- Contact Section Ends -->

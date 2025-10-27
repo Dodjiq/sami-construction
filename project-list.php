@@ -28,7 +28,7 @@ require_once 'header.php';
                     </div>
                     <div class="col-lg-4">
                         <div class="project-top-image">
-                            <img src="images/ch (1).jpg" alt="project image" class="w-lg-100 w-75">
+                            <img src="images/ch (1).webp" alt="project image" class="w-lg-100 w-75">
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box1 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Maisons contemporaines
                         </a>
                     </div>
@@ -47,7 +47,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box2 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Maisons traditionnelles
                         </a>
                     </div>
@@ -55,7 +55,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box3 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Rénovations & extensions
                         </a>
                     </div>
@@ -63,7 +63,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box4 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Projets personnalisés
                         </a>
                     </div>
@@ -71,7 +71,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box5 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Maisons RE 2020
                         </a>
                     </div>
@@ -79,7 +79,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box6 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Maisons RT 2012
                         </a>
                     </div>
@@ -87,7 +87,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box7 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Livraisons récentes
                         </a>
                     </div>
@@ -95,7 +95,7 @@ require_once 'header.php';
                 <div class="col-lg-3 col-md-6">
                     <div class="project-box8 project-box text-center position-relative">
                         <div class="overlay"></div>
-                        <a href="project-list.html" class="text-white h4 antonio fw-semibold position-relative">
+                        <a href="" class="text-white h4 antonio fw-semibold position-relative">
                             Villas contemporaines
                         </a>
                     </div>
@@ -122,7 +122,7 @@ require_once 'header.php';
                     <div class="add-banner-button m-0 text-center py-11 px-8 position-relative">
                         <div class="overlay"></div>
                         <a class="btn position-relative" href="contact.html">
-                            <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow" />
+                            <img src="images/right-arrow-white.webp" alt="arrow-icon" class="btn-arrow" />
                             Contactez-nous
                         </a>
                     </div>
