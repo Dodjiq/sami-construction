@@ -78,8 +78,8 @@
                 <div class="upper-header-inner">
                     <div class="row align-items-center d-none d-xl-flex">
                         <div class="col-xl-6 text-center text-xl-start">
-                            <div class="header-logo">
-                                <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="45%" /></a>
+                            <div class="header-logo" >
+                                <a href="index.php"><img src="images/logo-sami.png" alt="header-logo" width="45%" style="background-color: white; border-radius: 9px; padding: 8px;" /></a>
                             </div>
                         </div>
                         <div class="col-xl-6">
@@ -87,14 +87,12 @@
                                 class="header-contact-info d-xl-flex justify-content-end">
                                 <ul
                                     class="m-0 p-0 list-unstyled d-flex align-items-center me-3">
-                                    <li class="contact-info-icon me-2">
-                                        <i
-                                            class="fa fa-phone bg-white orange lh-lg rounded-circle text-center"
-                                            aria-hidden="true"></i>
-                                    </li>
-                                    <li class="contact-info-description">
-                                        <span class="h6 text-white antonio text-uppercase">Nous appeler</span>
-                                        <p class="text-white"><a href="tel:+33 4 66 20 46 83">+33 4 66 20 46 83</a></p>
+                                    <li>
+                                        <a href="tel:+33 4 66 20 46 83" id="btn-header"><img
+                                                src="images/right-arrow-white.webp"
+                                                alt="arrow-icon"
+                                                class="btn-arrow" />
+                                            Nous appeler</a>
                                     </li>
                                 </ul>
                                 <ul class="m-0 p-0 list-unstyled d-flex align-items-center">

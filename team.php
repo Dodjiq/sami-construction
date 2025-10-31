@@ -44,7 +44,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/rt.jpg"
+                                src="images/rt.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -83,7 +83,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/cc.jpg"
+                                src="images/cc.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -122,7 +122,7 @@ require_once 'header.php';
                         <div
                             class="team-member-image position-relative overflow-hidden">
                             <img
-                                src="images/ww.jpg"
+                                src="images/ww.webp"
                                 alt="team-member"
                                 class="w-100 position-relative" />
                             <div
@@ -131,7 +131,7 @@ require_once 'header.php';
                                     <span class="yellow antonio h5 fw-bold">Wade Warren</span>
                                     <p class="text-white">Analyst</p>
                                 </div>
-                                <ul class="social-link pb-2 ps-0">
+                                <!--<ul class="social-link pb-2 ps-0">
                                     <li class="d-inline-block">
                                         <a
                                             href="#"
@@ -147,7 +147,7 @@ require_once 'header.php';
                                             href="#"
                                             class="rounded-circle text-center d-block me-1 lh-lg"><i class="fa fa-pinterest-p"></i></a>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ require_once 'header.php';
                                 <div class="col-md-4 order-1 order-md-2">
                                     <div class="conatct-ad-image">
                                         <img
-                                            src="images/100.jpg"
+                                            src="images/1001.webp"
                                             alt="banner-image"
                                             class="w-100" />
                                     </div>

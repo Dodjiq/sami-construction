@@ -42,7 +42,7 @@ require_once 'header.php';
                 <button type="submit" class="btn" id="submit-btn">
                   <span id="btn-text">Envoyer le message</span>
                   <span id="spinner" class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
-                  <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow ms-2">
+                  <img src="images/right-arrow-white.webp" alt="arrow-icon" class="btn-arrow ms-2">
                 </button>
               </form>
             </div>

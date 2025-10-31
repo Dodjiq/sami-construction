@@ -129,6 +129,7 @@ require_once 'header.php';
                 </div>
             </div>
         </div>
+        <div style="margin-bottom: 50px;"></div>
     </div>
 </section>
 <!-- Ad Banner Section Ends -->

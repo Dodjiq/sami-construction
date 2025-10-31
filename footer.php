@@ -10,7 +10,7 @@
                         <img
                             src="images/logo-sami.png"
                             alt="footer-logo"
-                            class="w-75 mb-4" />
+                            class="w-75 mb-4" style="background-color: white; border-radius: 9px; padding: 8px;" />
                         <p class="mb-4 text-white">
                             C'est avec passion que nous construisons années après années
                             de belles maisons.

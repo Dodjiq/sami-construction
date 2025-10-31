@@ -47,6 +47,11 @@
 .border-dashed-bottom{border-bottom:1px dashed #92C94A59;}
 .border-dashed-bottom1{border-bottom:1px dashed #55555550;}
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body{
   margin: 0;
   padding: 0;

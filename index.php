@@ -569,7 +569,7 @@ require_once 'header.php';
                 <div class="col-lg-2">
                     <div
                         class="section-title py-6 px-4 bg-orange text-center text-lg-start">
-                        <h3 class="text-white">Nos Partenaires</h3>
+                        <h3 style="font-size: 35px;" class="text-white">Nos Partenaires</h3>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -780,7 +780,7 @@ require_once 'header.php';
                                 <div class="col-md-4 order-1 order-md-2">
                                     <div class="conatct-ad-image">
                                         <img
-                                            src="images/100.webp"
+                                            src="images/1001.webp"
                                             alt="banner-image"
                                             class="w-100" />
                                     </div>

@@ -247,7 +247,7 @@ header .contact-info-icon i {
   /* .slicknav_btn .slicknav_icon.slicknav_no-text {
     display: contents !important;
   } */
-  
+
   .slicknav_btn .slicknav_icon-bar {
     display: block !important;
     visibility: visible !important;
@@ -276,7 +276,6 @@ header .contact-info-icon i {
     float: none !important;
     position: static !important;
   }
-  
 
   .slicknav_nav {
     top: 75px;
@@ -444,31 +443,41 @@ header .contact-info-icon i {
   }
 }
 
-.project-box1,
 .project-box {
-  background-image: url(../images/maison-moderne.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 50px;
 }
 
+.project-box1 {
+  background-image: url(../images/contemp.webp) !important;
+}
+
 .project-box2 {
-  background-image: url(../images/maison-traditionnel.webp);
+  background-image: url(../images/realisation2.webp) !important;
 }
 
 .project-box3 {
-  background-image: url(../images/renovation.webp);
+  background-image: url(../images/realisation3.webp);
 }
 
 .project-box4 {
-  background-image: url(../images/projet-personnaliser.webp);
+  background-image: url(../images/realisation4.webp);
 }
 
 .project-box5 {
-  background-image: url(../images/nous-contacter.webp);
+  background-image: url(../images/realisation5.jpg);
 }
-
+.project-box6 {
+  background-image: url(../images/realisation6.webp);
+}
+.project-box7 {
+  background-image: url(../images/realisation7.webp);
+}
+.project-box8 {
+  background-image: url(../images/realisation8.webp);
+}
 .project-bottom .overlay {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
@@ -1113,4 +1122,23 @@ footer .overlay {
 .location-map iframe:hover {
   filter: none;
   transition: all 0.3s ease-in-out;
+}
+
+/* ========================================= */
+/*          Full Width Section CSS           */
+/* ========================================= */
+
+.guarantee-item.full-width {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.guarantee-item.full-width .row {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
 }
